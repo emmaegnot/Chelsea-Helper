@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EF68DA9D2D15C94500BD8B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF68DA842D15C94300BD8B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF68DA8B2D15C94300BD8B8E;
+			remoteInfo = "Chelsea Helper";
+		};
+		EF68DAA72D15C94500BD8B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF68DA842D15C94300BD8B8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF68DA8B2D15C94300BD8B8E;
+			remoteInfo = "Chelsea Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chelsea Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chelsea HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chelsea HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF68DA8E2D15C94300BD8B8E /* Chelsea Helper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chelsea Helper";
+			sourceTree = "<group>";
+		};
+		EF68DA9F2D15C94500BD8B8E /* Chelsea HelperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chelsea HelperTests";
+			sourceTree = "<group>";
+		};
+		EF68DAA92D15C94500BD8B8E /* Chelsea HelperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Chelsea HelperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF68DA892D15C94300BD8B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DA992D15C94500BD8B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DAA32D15C94500BD8B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF68DA832D15C94300BD8B8E = {
+			isa = PBXGroup;
+			children = (
+				EF68DA8E2D15C94300BD8B8E /* Chelsea Helper */,
+				EF68DA9F2D15C94500BD8B8E /* Chelsea HelperTests */,
+				EF68DAA92D15C94500BD8B8E /* Chelsea HelperUITests */,
+				EF68DA8D2D15C94300BD8B8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF68DA8D2D15C94300BD8B8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */,
+				EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */,
+				EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea Helper" */;
+			buildPhases = (
+				EF68DA882D15C94300BD8B8E /* Sources */,
+				EF68DA892D15C94300BD8B8E /* Frameworks */,
+				EF68DA8A2D15C94300BD8B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF68DA8E2D15C94300BD8B8E /* Chelsea Helper */,
+			);
+			name = "Chelsea Helper";
+			packageProductDependencies = (
+			);
+			productName = "Chelsea Helper";
+			productReference = EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF68DA9B2D15C94500BD8B8E /* Chelsea HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperTests" */;
+			buildPhases = (
+				EF68DA982D15C94500BD8B8E /* Sources */,
+				EF68DA992D15C94500BD8B8E /* Frameworks */,
+				EF68DA9A2D15C94500BD8B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF68DA9E2D15C94500BD8B8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF68DA9F2D15C94500BD8B8E /* Chelsea HelperTests */,
+			);
+			name = "Chelsea HelperTests";
+			packageProductDependencies = (
+			);
+			productName = "Chelsea HelperTests";
+			productReference = EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF68DAA52D15C94500BD8B8E /* Chelsea HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperUITests" */;
+			buildPhases = (
+				EF68DAA22D15C94500BD8B8E /* Sources */,
+				EF68DAA32D15C94500BD8B8E /* Frameworks */,
+				EF68DAA42D15C94500BD8B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF68DAA82D15C94500BD8B8E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF68DAA92D15C94500BD8B8E /* Chelsea HelperUITests */,
+			);
+			name = "Chelsea HelperUITests";
+			packageProductDependencies = (
+			);
+			productName = "Chelsea HelperUITests";
+			productReference = EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF68DA842D15C94300BD8B8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EF68DA8B2D15C94300BD8B8E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EF68DA9B2D15C94500BD8B8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EF68DA8B2D15C94300BD8B8E;
+					};
+					EF68DAA52D15C94500BD8B8E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EF68DA8B2D15C94300BD8B8E;
+					};
+				};
+			};
+			buildConfigurationList = EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea Helper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF68DA832D15C94300BD8B8E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF68DA8D2D15C94300BD8B8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */,
+				EF68DA9B2D15C94500BD8B8E /* Chelsea HelperTests */,
+				EF68DAA52D15C94500BD8B8E /* Chelsea HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF68DA8A2D15C94300BD8B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DA9A2D15C94500BD8B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DAA42D15C94500BD8B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF68DA882D15C94300BD8B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DA982D15C94500BD8B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF68DAA22D15C94500BD8B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF68DA9E2D15C94500BD8B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */;
+			targetProxy = EF68DA9D2D15C94500BD8B8E /* PBXContainerItemProxy */;
+		};
+		EF68DAA82D15C94500BD8B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */;
+			targetProxy = EF68DAA72D15C94500BD8B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF68DAAE2D15C94500BD8B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF68DAAF2D15C94500BD8B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF68DAB12D15C94500BD8B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chelsea Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF68DAB22D15C94500BD8B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chelsea Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF68DAB42D15C94500BD8B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea Helper";
+			};
+			name = Debug;
+		};
+		EF68DAB52D15C94500BD8B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea Helper";
+			};
+			name = Release;
+		};
+		EF68DAB72D15C94500BD8B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chelsea Helper";
+			};
+			name = Debug;
+		};
+		EF68DAB82D15C94500BD8B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97P4K4AXWL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emma.Chelsea-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chelsea Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF68DAAE2D15C94500BD8B8E /* Debug */,
+				EF68DAAF2D15C94500BD8B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF68DAB12D15C94500BD8B8E /* Debug */,
+				EF68DAB22D15C94500BD8B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF68DAB42D15C94500BD8B8E /* Debug */,
+				EF68DAB52D15C94500BD8B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF68DAB72D15C94500BD8B8E /* Debug */,
+				EF68DAB82D15C94500BD8B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF68DA842D15C94300BD8B8E /* Project object */;
+}
