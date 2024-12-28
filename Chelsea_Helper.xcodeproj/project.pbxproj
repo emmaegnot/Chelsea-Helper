@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chelsea Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chelsea HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chelsea HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF68DA8C2D15C94300BD8B8E /* Chelsea_Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chelsea_Helper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF68DA9C2D15C94500BD8B8E /* Chelsea_HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chelsea_HelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF68DAA62D15C94500BD8B8E /* Chelsea_HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chelsea_HelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		EF68DA8D2D15C94300BD8B8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */,
-				EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */,
-				EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */,
+				EF68DA8C2D15C94300BD8B8E /* Chelsea_Helper.app */,
+				EF68DA9C2D15C94500BD8B8E /* Chelsea_HelperTests.xctest */,
+				EF68DAA62D15C94500BD8B8E /* Chelsea_HelperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */ = {
+		EF68DA8B2D15C94300BD8B8E /* Chelsea_Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea Helper" */;
+			buildConfigurationList = EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_Helper" */;
 			buildPhases = (
 				EF68DA882D15C94300BD8B8E /* Sources */,
 				EF68DA892D15C94300BD8B8E /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				EF68DA8E2D15C94300BD8B8E /* Chelsea Helper */,
 			);
-			name = "Chelsea Helper";
+			name = Chelsea_Helper;
 			packageProductDependencies = (
 			);
 			productName = "Chelsea Helper";
-			productReference = EF68DA8C2D15C94300BD8B8E /* Chelsea Helper.app */;
+			productReference = EF68DA8C2D15C94300BD8B8E /* Chelsea_Helper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF68DA9B2D15C94500BD8B8E /* Chelsea HelperTests */ = {
+		EF68DA9B2D15C94500BD8B8E /* Chelsea_HelperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperTests" */;
+			buildConfigurationList = EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_HelperTests" */;
 			buildPhases = (
 				EF68DA982D15C94500BD8B8E /* Sources */,
 				EF68DA992D15C94500BD8B8E /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				EF68DA9F2D15C94500BD8B8E /* Chelsea HelperTests */,
 			);
-			name = "Chelsea HelperTests";
+			name = Chelsea_HelperTests;
 			packageProductDependencies = (
 			);
 			productName = "Chelsea HelperTests";
-			productReference = EF68DA9C2D15C94500BD8B8E /* Chelsea HelperTests.xctest */;
+			productReference = EF68DA9C2D15C94500BD8B8E /* Chelsea_HelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF68DAA52D15C94500BD8B8E /* Chelsea HelperUITests */ = {
+		EF68DAA52D15C94500BD8B8E /* Chelsea_HelperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperUITests" */;
+			buildConfigurationList = EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_HelperUITests" */;
 			buildPhases = (
 				EF68DAA22D15C94500BD8B8E /* Sources */,
 				EF68DAA32D15C94500BD8B8E /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				EF68DAA92D15C94500BD8B8E /* Chelsea HelperUITests */,
 			);
-			name = "Chelsea HelperUITests";
+			name = Chelsea_HelperUITests;
 			packageProductDependencies = (
 			);
 			productName = "Chelsea HelperUITests";
-			productReference = EF68DAA62D15C94500BD8B8E /* Chelsea HelperUITests.xctest */;
+			productReference = EF68DAA62D15C94500BD8B8E /* Chelsea_HelperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea Helper" */;
+			buildConfigurationList = EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea_Helper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */,
-				EF68DA9B2D15C94500BD8B8E /* Chelsea HelperTests */,
-				EF68DAA52D15C94500BD8B8E /* Chelsea HelperUITests */,
+				EF68DA8B2D15C94300BD8B8E /* Chelsea_Helper */,
+				EF68DA9B2D15C94500BD8B8E /* Chelsea_HelperTests */,
+				EF68DAA52D15C94500BD8B8E /* Chelsea_HelperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		EF68DA9E2D15C94500BD8B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */;
+			target = EF68DA8B2D15C94300BD8B8E /* Chelsea_Helper */;
 			targetProxy = EF68DA9D2D15C94500BD8B8E /* PBXContainerItemProxy */;
 		};
 		EF68DAA82D15C94500BD8B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF68DA8B2D15C94300BD8B8E /* Chelsea Helper */;
+			target = EF68DA8B2D15C94300BD8B8E /* Chelsea_Helper */;
 			targetProxy = EF68DAA72D15C94500BD8B8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea Helper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea_Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea_Helper";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea Helper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chelsea_Helper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chelsea_Helper";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea Helper" */ = {
+		EF68DA872D15C94300BD8B8E /* Build configuration list for PBXProject "Chelsea_Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF68DAAE2D15C94500BD8B8E /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea Helper" */ = {
+		EF68DAB02D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF68DAB12D15C94500BD8B8E /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperTests" */ = {
+		EF68DAB32D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_HelperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF68DAB42D15C94500BD8B8E /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea HelperUITests" */ = {
+		EF68DAB62D15C94500BD8B8E /* Build configuration list for PBXNativeTarget "Chelsea_HelperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF68DAB72D15C94500BD8B8E /* Debug */,
